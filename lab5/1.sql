@@ -1,0 +1,2 @@
+SELECT university.UNIVERSITY.UNIV_NAME FROM UNIVERSITY WHERE university.UNIVERSITY.RATING >
+                                                             (SELECT university.UNIVERSITY.RATING FROM UNIVERSITY WHERE university.UNIVERSITY.UNIV_NAME = "Воронежский государственный университет");
