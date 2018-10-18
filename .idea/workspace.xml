@@ -29,43 +29,43 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="university2@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="university@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="university2@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="university@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="university2@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="university@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="university2: schema" type="c314c289:MysqlImplModel$Schema" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="university2@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="university@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="university2: schema" type="c314c289:MysqlImplModel$Schema" />
         <item name="EXAM_MARKS: table" type="98d5ac3d:MysqlImplModel$Table" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="university2@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="university@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="university2: schema" type="c314c289:MysqlImplModel$Schema" />
         <item name="STUDENT: table" type="98d5ac3d:MysqlImplModel$Table" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="university2@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="university@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="university2: schema" type="c314c289:MysqlImplModel$Schema" />
         <item name="SUBJECT: table" type="98d5ac3d:MysqlImplModel$Table" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="university2@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="university@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="collations" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
     </expand>
@@ -86,20 +86,21 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="sql" value="942" />
+          <entry key="sql" value="947" />
           <entry key="txt" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="11" />
-          <entry key="SQL" value="59" />
+          <entry key="SQL" value="64" />
           <entry key="Scratch" value="883" />
         </counts>
       </usages-collector>
@@ -119,21 +120,12 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/be2fb604-7c52-49b9-b9d4-fd5db7a6439e/console.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lab_4.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="18" selection-end-line="10" selection-end-column="39" />
+            <state relative-caret-position="150">
+              <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -151,7 +143,7 @@
         <entry file="file://$PROJECT_DIR$/lab_4/1.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="36" lean-forward="true" selection-end-line="3" selection-end-column="43" />
+              <caret line="3" column="36" selection-end-line="3" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -167,8 +159,8 @@
         <option value="$PROJECT_DIR$/lab4_1.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/be2fb604-7c52-49b9-b9d4-fd5db7a6439e/console_1.sql" />
         <option value="$PROJECT_DIR$/lab_4/2.sql" />
-        <option value="$PROJECT_DIR$/lab_4.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/be2fb604-7c52-49b9-b9d4-fd5db7a6439e/console.sql" />
+        <option value="$PROJECT_DIR$/lab_4.sql" />
       </list>
     </option>
   </component>
@@ -179,36 +171,34 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="x" value="180" />
+    <option name="y" value="122" />
+    <option name="width" value="1080" />
+    <option name="height" value="599" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="university-database" type="b2602c69:ProjectViewProjectNode" />
-              <item name="university-database" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="university-database" type="b2602c69:ProjectViewProjectNode" />
-              <item name="university-database" type="462c0819:PsiDirectoryNode" />
-              <item name="lab_4" type="462c0819:PsiDirectoryNode" />
+              <item name="university-database" type="8cb6161f:DatabaseProjectViewPane$1$1" />
+              <item name="university-database" type="5b8f4e1:DatabaseProjectViewPane$1$1$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539224427811" />
@@ -216,7 +206,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="database.main" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -254,20 +244,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17453505" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17668097" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Database Console" visible="true" weight="0.45180723" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32913166" />
@@ -275,15 +259,20 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" visible="true" weight="0.26752505" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info active="true" anchor="bottom" id="Database Console" order="7" visible="true" weight="0.45180723" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info active="true" anchor="right" id="Database" order="7" visible="true" weight="0.26752505" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,33 +282,12 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://be2fb604-7c52-49b9-b9d4-fd5db7a6439e/schema/university2/table/exam_marks.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/be2fb604-7c52-49b9-b9d4-fd5db7a6439e/console_1.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="45" selection-start-column="45" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://be2fb604-7c52-49b9-b9d4-fd5db7a6439e/schema/university2/table/exam_marks">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab_4/3.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab_4/4.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="das://be2fb604-7c52-49b9-b9d4-fd5db7a6439e/schema/university2/table/exam_marks.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/be2fb604-7c52-49b9-b9d4-fd5db7a6439e/console_1.sql" />
+    <entry file="das://be2fb604-7c52-49b9-b9d4-fd5db7a6439e/schema/university2/table/exam_marks" />
+    <entry file="file://$PROJECT_DIR$/lab_4/3.sql" />
+    <entry file="file://$PROJECT_DIR$/lab_4/4.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/be2fb604-7c52-49b9-b9d4-fd5db7a6439e/console.sql" />
     <entry file="file://$PROJECT_DIR$/lab_4/2.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -330,21 +298,14 @@
     <entry file="file://$PROJECT_DIR$/lab_4/1.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="36" lean-forward="true" selection-end-line="3" selection-end-column="43" />
+          <caret line="3" column="36" selection-end-line="3" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lab_4.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="18" selection-end-line="10" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/be2fb604-7c52-49b9-b9d4-fd5db7a6439e/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        <state relative-caret-position="150">
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
         </state>
       </provider>
     </entry>
