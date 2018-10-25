@@ -1,0 +1,3 @@
+UPDATE UNIVERSITY SET RATING = RATING + 5 WHERE university.UNIVERSITY.CITY = 'Санкт-Петербург' ;
+
+SELECT * FROM UNIVERSITY WHERE university.UNIVERSITY.CITY = 'Санкт-Петербург' ;

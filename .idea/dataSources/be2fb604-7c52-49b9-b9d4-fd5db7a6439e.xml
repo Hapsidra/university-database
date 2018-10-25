@@ -1107,243 +1107,316 @@
     <table id="277" parent="6" name="EXAM_MARKS"/>
     <table id="278" parent="6" name="LECTURER"/>
     <table id="279" parent="6" name="STUDENT"/>
-    <table id="280" parent="6" name="SUBJECT"/>
-    <table id="281" parent="6" name="SUBJ_LECT"/>
-    <table id="282" parent="6" name="UNIVERSITY"/>
-    <column id="283" parent="277" name="EXAM_ID">
+    <table id="280" parent="6" name="STUDENT1"/>
+    <table id="281" parent="6" name="SUBJECT"/>
+    <table id="282" parent="6" name="SUBJECT1"/>
+    <table id="283" parent="6" name="SUBJ_LECT"/>
+    <table id="284" parent="6" name="UNIVERSITY"/>
+    <column id="285" parent="277" name="EXAM_ID">
       <Position>1</Position>
       <DataType>decimal(10)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="284" parent="277" name="STUDENT_ID">
+    <column id="286" parent="277" name="STUDENT_ID">
       <Position>2</Position>
       <DataType>decimal(10)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="285" parent="277" name="SUBJ_ID">
+    <column id="287" parent="277" name="SUBJ_ID">
       <Position>3</Position>
       <DataType>decimal(10)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="286" parent="277" name="MARK">
+    <column id="288" parent="277" name="MARK">
       <Position>4</Position>
       <DataType>decimal(10)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="287" parent="277" name="EXAM_DATE">
+    <column id="289" parent="277" name="EXAM_DATE">
       <Position>5</Position>
       <DataType>date|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="288" parent="277" name="STUDENT_ID_1">
+    <index id="290" parent="277" name="STUDENT_ID_1">
       <ColNames>STUDENT_ID</ColNames>
       <Type>btree</Type>
     </index>
-    <index id="289" parent="277" name="SUBJECT_FOR_KEY">
+    <index id="291" parent="277" name="SUBJECT_FOR_KEY">
       <ColNames>SUBJ_ID</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="290" parent="277" name="PRIMARY">
+    <key id="292" parent="277" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>EXAM_ID
 STUDENT_ID
 SUBJ_ID</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="291" parent="277" name="STUDENT_FOR_KEY">
+    <foreign-key id="293" parent="277" name="STUDENT_FOR_KEY">
       <ColNames>STUDENT_ID</ColNames>
       <RefSchemaName>university</RefSchemaName>
       <RefTableName>STUDENT</RefTableName>
       <RefColNames>student_id</RefColNames>
     </foreign-key>
-    <foreign-key id="292" parent="277" name="SUBJECT_FOR_KEY">
+    <foreign-key id="294" parent="277" name="SUBJECT_FOR_KEY">
       <ColNames>SUBJ_ID</ColNames>
       <RefSchemaName>university</RefSchemaName>
       <RefTableName>SUBJECT</RefTableName>
       <RefColNames>subj_id</RefColNames>
     </foreign-key>
-    <column id="293" parent="278" name="LECTURER_ID">
+    <column id="295" parent="278" name="LECTURER_ID">
       <Position>1</Position>
       <DataType>decimal(10)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="294" parent="278" name="SURNAME">
+    <column id="296" parent="278" name="SURNAME">
       <Position>2</Position>
       <DataType>varchar(60)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="295" parent="278" name="NAME">
+    <column id="297" parent="278" name="NAME">
       <Position>3</Position>
       <DataType>varchar(60)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="296" parent="278" name="CITY">
+    <column id="298" parent="278" name="CITY">
       <Position>4</Position>
       <DataType>varchar(60)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="297" parent="278" name="UNIV_ID">
+    <column id="299" parent="278" name="UNIV_ID">
       <Position>5</Position>
       <DataType>decimal(10)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="298" parent="278" name="UNIVLECT_FOR_KEY">
+    <index id="300" parent="278" name="UNIVLECT_FOR_KEY">
       <ColNames>UNIV_ID</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="299" parent="278" name="PRIMARY">
+    <key id="301" parent="278" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>LECTURER_ID</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="300" parent="278" name="UNIVLECT_FOR_KEY">
+    <foreign-key id="302" parent="278" name="UNIVLECT_FOR_KEY">
       <ColNames>UNIV_ID</ColNames>
       <RefSchemaName>university</RefSchemaName>
       <RefTableName>UNIVERSITY</RefTableName>
       <RefColNames>univ_id</RefColNames>
     </foreign-key>
-    <column id="301" parent="279" name="STUDENT_ID">
+    <column id="303" parent="279" name="STUDENT_ID">
       <Position>1</Position>
       <DataType>decimal(10)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="302" parent="279" name="SURNAME">
+    <column id="304" parent="279" name="SURNAME">
       <Position>2</Position>
       <DataType>varchar(60)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="303" parent="279" name="NAME">
+    <column id="305" parent="279" name="NAME">
       <Position>3</Position>
       <DataType>varchar(60)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="304" parent="279" name="STIPEND">
+    <column id="306" parent="279" name="STIPEND">
       <Position>4</Position>
       <DataType>decimal(16,2 digit)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="305" parent="279" name="KURS">
+    <column id="307" parent="279" name="KURS">
       <Position>5</Position>
       <DataType>decimal(10)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="306" parent="279" name="CITY">
+    <column id="308" parent="279" name="CITY">
       <Position>6</Position>
       <DataType>varchar(60)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="307" parent="279" name="BIRTHDAY">
+    <column id="309" parent="279" name="BIRTHDAY">
       <Position>7</Position>
       <DataType>date|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="308" parent="279" name="UNIV_ID">
+    <column id="310" parent="279" name="UNIV_ID">
       <Position>8</Position>
       <DataType>decimal(10)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="309" parent="279" name="UNIV_FOR_KEY">
+    <index id="311" parent="279" name="UNIV_FOR_KEY">
       <ColNames>UNIV_ID</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="310" parent="279" name="PRIMARY">
+    <key id="312" parent="279" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>STUDENT_ID</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="311" parent="279" name="UNIV_FOR_KEY">
+    <foreign-key id="313" parent="279" name="UNIV_FOR_KEY">
       <ColNames>UNIV_ID</ColNames>
       <RefSchemaName>university</RefSchemaName>
       <RefTableName>UNIVERSITY</RefTableName>
       <RefColNames>univ_id</RefColNames>
     </foreign-key>
-    <column id="312" parent="280" name="SUBJ_ID">
+    <column id="314" parent="280" name="STUDENT_ID">
       <Position>1</Position>
       <DataType>decimal(10)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="313" parent="280" name="SUBJ_NAME">
+    <column id="315" parent="280" name="SURNAME">
       <Position>2</Position>
       <DataType>varchar(60)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="314" parent="280" name="HOUR">
+    <column id="316" parent="280" name="NAME">
       <Position>3</Position>
-      <DataType>decimal(10)|0s</DataType>
+      <DataType>varchar(60)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="315" parent="280" name="SEMESTER">
+    <column id="317" parent="280" name="STIPEND">
       <Position>4</Position>
+      <DataType>decimal(16,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="318" parent="280" name="KURS">
+      <Position>5</Position>
       <DataType>decimal(10)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="316" parent="280" name="PRIMARY">
+    <column id="319" parent="280" name="CITY">
+      <Position>6</Position>
+      <DataType>varchar(60)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="320" parent="280" name="BIRTHDAY">
+      <Position>7</Position>
+      <DataType>date|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="321" parent="280" name="UNIV_ID">
+      <Position>8</Position>
+      <DataType>decimal(10)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="322" parent="280" name="UNIV_FOR_KEY">
+      <ColNames>UNIV_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="323" parent="280" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
-      <ColNames>SUBJ_ID</ColNames>
+      <ColNames>STUDENT_ID</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="317" parent="281" name="LECTURER_ID">
+    <column id="324" parent="281" name="SUBJ_ID">
       <Position>1</Position>
       <DataType>decimal(10)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="318" parent="281" name="SUBJ_ID">
+    <column id="325" parent="281" name="SUBJ_NAME">
+      <Position>2</Position>
+      <DataType>varchar(60)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="326" parent="281" name="HOUR">
+      <Position>3</Position>
+      <DataType>decimal(10)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="327" parent="281" name="SEMESTER">
+      <Position>4</Position>
+      <DataType>decimal(10)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="328" parent="281" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>SUBJ_ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="329" parent="282" name="SUBJ_ID">
+      <Position>1</Position>
+      <DataType>decimal(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="330" parent="282" name="SUBJ_NAME">
+      <Position>2</Position>
+      <DataType>varchar(60)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="331" parent="282" name="HOUR">
+      <Position>3</Position>
+      <DataType>decimal(10)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="332" parent="282" name="SEMESTER">
+      <Position>4</Position>
+      <DataType>decimal(10)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="333" parent="283" name="LECTURER_ID">
+      <Position>1</Position>
+      <DataType>decimal(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="334" parent="283" name="SUBJ_ID">
       <Position>2</Position>
       <DataType>decimal(10)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="319" parent="281" name="SUBJ_FOR_KEY">
+    <index id="335" parent="283" name="SUBJ_FOR_KEY">
       <ColNames>SUBJ_ID</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="320" parent="281" name="PRIMARY">
+    <key id="336" parent="283" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>LECTURER_ID
 SUBJ_ID</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="321" parent="281" name="LECT_FOR_KEY">
+    <foreign-key id="337" parent="283" name="LECT_FOR_KEY">
       <ColNames>LECTURER_ID</ColNames>
       <RefSchemaName>university</RefSchemaName>
       <RefTableName>LECTURER</RefTableName>
       <RefColNames>lecturer_id</RefColNames>
     </foreign-key>
-    <foreign-key id="322" parent="281" name="SUBJ_FOR_KEY">
+    <foreign-key id="338" parent="283" name="SUBJ_FOR_KEY">
       <ColNames>SUBJ_ID</ColNames>
       <RefSchemaName>university</RefSchemaName>
       <RefTableName>SUBJECT</RefTableName>
       <RefColNames>subj_id</RefColNames>
     </foreign-key>
-    <column id="323" parent="282" name="UNIV_ID">
+    <column id="339" parent="284" name="UNIV_ID">
       <Position>1</Position>
       <DataType>decimal(10)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="324" parent="282" name="UNIV_NAME">
+    <column id="340" parent="284" name="UNIV_NAME">
       <Position>2</Position>
       <DataType>varchar(160)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="325" parent="282" name="RATING">
+    <column id="341" parent="284" name="RATING">
       <Position>3</Position>
       <DataType>decimal(10)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="326" parent="282" name="CITY">
+    <column id="342" parent="284" name="CITY">
       <Position>4</Position>
       <DataType>varchar(60)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="327" parent="282" name="PRIMARY">
+    <key id="343" parent="284" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>UNIV_ID</ColNames>
       <Primary>1</Primary>
